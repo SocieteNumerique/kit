@@ -1,0 +1,29 @@
+title: Numérique inclusif
+description: Construisez votre stratégie locale pour un numérique inclusif
+author: Société numérique
+twitter:
+  username: missionsonum
+facebook:
+  publisher: MissionSoNum
+logo: /images/logo.png
+social:
+  links:
+    - https://twitter.com/missionsonum
+    - https://www.facebook.com/MissionSoNum
+    - https://www.linkedin.com/company/18465343/
+    - https://github.com/SocieteNumerique
+google_site_verification:
+lang: fr_FR
+
+# Build settings
+markdown: kramdown
+
+collections:
+  topics:
+    output: true
+
+number_of_season: 3
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
