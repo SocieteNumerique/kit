@@ -1,5 +1,5 @@
-title: Kit d'intervention rapide
-description: Kit d'intervention
+title: Numérique inclusif
+description: Construisez votre stratégie locale pour un numérique inclusif
 author: Société numérique
 twitter:
   username: missionsonum
@@ -17,6 +17,12 @@ lang: fr_FR
 
 # Build settings
 markdown: kramdown
+
+collections:
+  topics:
+    output: true
+
+number_of_season: 3
 
 plugins:
   - jekyll-seo-tag
