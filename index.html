@@ -11,8 +11,8 @@ layout: default
        <section id="home">
          <div class="row">
            <div class="col-md-8 offset-md-2 my-4">
-             <h2 class="text-center">Notre mission</h2>
-             <h4 class="text-center mb-5">Rendre le un numérique plus inclusif.</h4>
+             <h2 class="text-center">Kit d'intervention rapide</h2>
+             <h4 class="text-center mb-5">Kit d'intervention rapide</h4>
              <h5>Pour la première fois, une démarche associant l’ensemble des acteurs</h5>
              <p>En partant des besoins de la population et en s’appuyant sur les expertises existantes, cette stratégie nationale doit permettre de formaliser des objectifs communs, de fédérer et coordonner les différents acteurs, de mieux définir les rôles de chacun d’entre eux et d’unir les moyens et les efforts de tous, pour rendre l’action collective plus efficace pour les citoyens.</p>
              <p>Des acteurs nombreux et divers, publics ou privés, contribuent aujourd’hui à l’accueil et l’accompagnement des personnes en difficulté face au numérique, chacun à leur échelle : les lieux spécifiquement dédié à la médiation numérique, bien sûr, les services déconcentrés de l’Etat, les organismes de protection sociale (vieillesse, maladie, chômage, famille, etc.), les collectivités territoriales, mais aussi des centres sociaux, des associations, des acteurs de l’économie sociale et solidaire, des bureaux de Poste, des organismes caritatifs, des entreprises de services à la personne, etc. Nombre d’initiatives et d’expériences réussies existent, mais sont encore insuffisamment documentées, connues et reproduites.</p>
@@ -24,59 +24,10 @@ layout: default
        <hr class="my-4">
 
        <section id="toolbox">
-         <h2 class="text-center">Boîte à outils</h2>
-         <p class="text-center">Retrouvez-ici les outils pour créer votre stratégie</p>
+         <h2 class="text-center">Kit</h2>
+         <p class="text-center">kat</p>
             <div class="row">
-              {% for item in site.topics %}
-                  <div class="col-lg-3 col-md-6 my-4">
-                    <!--Card-->
-                      <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight hm-zoom">
-                            {% if item.image %}
-                            <img
-                                class="img-fluid"
-                                src="{{ site.url }}/images/topics/{{ item.image }}"
-                                alt="projet-{{ item.title }}"
-                                srcset="
-                                    {{ site.url }}/images/topics/900/{{ item.image }} 900w,
-                                    {{ site.url }}/images/topics/450/{{ item.image }} 450w"
-                                sizes="
-                                    (max-width: 991px) 100vw,
-                                    20vw">
-                            </img>
-                            {% else %}
-                            <img
-                                class="img-fluid"
-                                src="{{ site.url }}/images/topics/{{ item.image }}"
-                                alt="projet-{{ item.title }}"
-                                srcset="
-                                    {{ site.url }}/images/topics/900/default.jpg 900w,
-                                    {{ site.url }}/images/topics/450/default.jpg 450w"
-                                sizes="
-                                    (max-width: 991px) 100vw,
-                                    20vw">
-                            </img>
-                            {% endif %}
-                            <a href="{{ item.url }}">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
 
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title">{{ item.title }}</h4>
-                            <!--Text-->
-                            <p class="card-text">{{ item.description }}</p>
-                            <a href="{{ item.url }}" class="mdb-color-text mt-1 d-flex flex-row-reverse">
-                              <h5 class="waves-effect p-2">En savoir plus <i class="fa fa-chevron-right"></i></h5>
-                            </a>
-                        </div>
-                    </div>
-                    <!--/.Card-->
-                  </div>
-              {% endfor %}
             </div>
         </section>
         </div>
@@ -90,14 +41,14 @@ layout: default
 
                   <!--First column-->
                   <div class="col-md-6 my-4">
-                      <h2>Ce site est contributif</h2>
+                      <h2>Titre h2</h2>
                       <p>Nisi affogato lomo twee everyday carry bushwick duis pour-over poutine salvia et air plant letterpress sriracha bicycle rights.</p>
                       <p>Echo park deep v banh mi cold-pressed lyft artisan brunch vexillologist meggings subway tile, slow-carb chambray.</p>
                       <div class="my-4" align="center">
                         <a href="http://www.societenumerique.gouv.fr" role="button" class="btn btn-mdb-color">
                           <i class="fa fa-edit pr-2" aria-hidden="true">
                           </i>
-                          Contribuez !
+                          Cliquez ici
                         </a>
                       </div>
                   </div>
