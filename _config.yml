@@ -18,6 +18,16 @@ lang: fr_FR
 # Build settings
 markdown: kramdown
 
+collections:
+  topics:
+    output: true
+
+number_of_season: 3
+
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
   - jekyll-seo-tag
   - jekyll-sitemap
