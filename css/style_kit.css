@@ -3,7 +3,7 @@
 body {
   font-family: 'Lato', sans-serif !important;
 }
-h1 {    
+h1 {
     font-size: 2.5rem;
     font-weight: 900;
     color: white;
@@ -15,7 +15,7 @@ h1.ss-titre {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     padding: 1rem 0;
     color: #513085;
@@ -32,7 +32,7 @@ ul {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4rem;
-    color: #513085;    
+    color: #513085;
 }
 h3.wht,
 p.wht,
@@ -40,7 +40,7 @@ a.wht {
     color: white;
 }
 a.prpl {
-    color: #513085; 
+    color: #513085;
 }
 p.big {
     font-size: 1.4rem;
@@ -134,7 +134,7 @@ ul.red-dot li:before {
 /* Footer */
 .page-footer {
     background-color: white;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 .page-footer,
 .page-footer a {
@@ -242,7 +242,7 @@ img.back-img-left {
 }
 /* j'accueille */
 .citation {
-    border: solid #513085 1px;    
+    border: solid #513085 1px;
 }
 
 /* Plus loin */
