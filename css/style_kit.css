@@ -249,3 +249,34 @@ img.back-img-left {
 #plusloin {
     padding-bottom: 50px;
 }
+
+/* contribute */
+#contribute,
+#contribute-home {
+    background-color: #A6328A;
+    color: white;
+    padding: 40px 0;
+}
+#contribute-home {
+    margin-bottom: -10px;
+}
+#contribute p.big,
+#contribute-home p.big {
+    max-width: 1000px;
+}
+#contribute p.big.flex {
+    flex-wrap: wrap;
+}
+#contribute .col-xl-4 {
+    margin-bottom: 10px;
+}
+#contribute .contribute-block {
+    border: solid 1px;
+    height: 100%;
+    padding: 15px;
+    justify-content: space-between;
+}
+.contribute-block .dl-link {
+    margin: 35px auto 0;
+    height: 110px;
+}
